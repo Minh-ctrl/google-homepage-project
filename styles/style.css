@@ -1,0 +1,114 @@
+.header-wrapper{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: space-between;
+    height: 10px;
+}
+.gmail-header{
+    display: inline-block;
+    padding-left: 15px;
+}
+.images-header{
+    display: inline-block;
+    padding-left: 15px;
+}
+.apps-header{
+    display: inline-block;
+    padding-left: 15px;
+}
+.account-header {
+    display: inline-block;
+    padding-left: 15px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+.logo-box{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-end;
+    height: 200px;
+}
+#logo{
+    position: absolute;
+    width: auto;
+    height: auto;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+}
+.search-container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    height: 10px;
+}
+#search-bar{
+    width: 350px;
+    margin: 0 auto;
+    height: 25px;
+    border: none;
+    border-color: transparent;
+    background-color: transparent;
+    outline: none;
+    font-size: 18px;
+    color: rgba(0,0,0,.87);
+}
+.search-box{
+    border: 1px solid #D3D3D3;
+    border-radius: 30px;
+    padding: 5px 8px 0 6px;
+    max-width: 440px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+center{
+    display: block;
+}
+.google-search{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    margin: 11px 4px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.lucky{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    margin: 11px 4px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.language{
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    flex-flow: row nowrap;
+    height: 300px;
+}
+.footer-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: rgba(0,0,0,.54);
+}
