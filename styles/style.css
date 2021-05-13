@@ -1,29 +1,107 @@
-html {
-  font-size: 30px;
-  font-family: 'Roboto', sans-serif;
-  background-color: grey;
+html, body{
+    margin: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100%;
 }
-h1 {
-  font-size: 60px;
-  text-align: center;
-  margin: 0;
-  padding: 30px 0;
-  color:red;
-  text-shadow: 3px 3px 1px black;
+a {
+    text-decoration: none;
 }
-img {
-  display: block;
-  width: 600px;
+a:hover {
+    text-decoration: underline;
 }
-p, li {
-  font-size: 16px;
-  line-height: 2;
-  letter-spacing: 1px;
+#middle{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
 }
-body {
-  width: 600px;
-  margin: 0 auto;
-  background-color:rgb(29, 202, 29);
-  padding: 0 20px 20px 20px;
-  border: 5px solid black;
+#nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+#nav a{
+    margin-right: 20px;
+}
+#nav a.topimage{
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+}
+#middle{
+    flex-grow: 1;
+}
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+#searchbar-container{
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+#search-icon, #mic-icon{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search-icon{
+    left: 10px;
+}
+#mic-icon{
+    right:10px;
+}
+#searchbar{
+    padding: 10px 40px 10px 40px;
+    outline: 0;
+    width: 600px;
+    max-width:  584px;
+    border-radius: 30px;
+    border: 1px solid rgb(136, 131, 131);
+    height: 34px;
+}
+#searchbar:hover{
+    box-shadow: 0 0 10px 2px grey;
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+.button{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background:#f8f9fa;
+    border-radius: 3px;
+    border: 2px solid transparent;
+}
+.button:hover{
+    box-shadow: 0 0 2px 1px lightgrey;
+
+}
+#links{
+    text-align: center;
+    padding-top: 10px;
+}
+#footer{
+    display: flex;
+    background:#eee;
+    border-top: 2px solid lightgrey;
+    height: 2.5rem;
+    justify-content: space-between;
+}
+#footer-leftside a{
+    padding-left: 10px;
+}
+#footer-rightside a{
+    padding-left: 10px;
 }
